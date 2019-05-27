@@ -1,0 +1,26 @@
+{
+  "name": "imdb-scraper",
+  "version": "1.0.0",
+  "description": "Imdb webscraper with Nightmare.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariazevedo88/imdb-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariazevedo88/imdb-scraper/issues"
+  },
+  "homepage": "https://github.com/mariazevedo88/imdb-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "nightmare": "^3.0.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
