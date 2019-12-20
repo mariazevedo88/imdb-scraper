@@ -27,14 +27,14 @@ async function scrapePosterUrl(movies){
     const moviesWithPosterUrls = await Promise.all(
         movies.map(async movie => {
             try{
-                const html = await request.get(movie.descriptionUrl);
+                const html = await request.get({url: movie.descriptionUrl});
                 const $ = await cheerio.load(html);
-                movie.posterUrl = 
+                if(movie != null){
+                    movie.posterUrl = 
                     "https://www.imdb.com" + $("div.poster > a").attr("href");
+                }
                 return movie;
-            }catch(e){
-                //console.log(e);
-            }
+            }catch(e){}
         })
     );
 
@@ -50,6 +50,7 @@ async function scrapePosterImageUrl(movies){
                 $("#photo-container > div > div:nth-child(2) > div > div.pswp__scroll-wrap > div.pswp__container > div:nth-child(2) > div > img:nth-child(2)"
                 ).attr("src"));
             movies[i].posterImageUrl = posterImageUrl;
+            movie = movies[i];
             savePosterImageToDisk(movie);
             console.log(movies[i]);
         }catch(e){
