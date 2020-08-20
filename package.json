@@ -21,7 +21,7 @@
   "homepage": "https://github.com/mariazevedo88/imdb-scraper#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "electron": "^9.1.2",
+    "electron": "^9.2.1",
     "lodash": "^4.17.20",
     "minimist": "^1.2.5",
     "nightmare": "^3.0.2",
