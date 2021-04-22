@@ -554,10 +554,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.10.tgz#5958a82e41863cfc71f2307b3748e3491ba03785"
   integrity sha512-J32dgx2hw8vXrSbu4ZlVhn1Nm3GbeCFNw2FWL8S5QKucHGY0cyNwjdQdO+KMBZ4wpmC7KhLCiNsdk1RFRIYUQQ==
 
-"@types/node@^12.0.12":
-  version "12.19.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.19.8.tgz#efd6d1a90525519fc608c9db16c8a78f7693a978"
-  integrity sha512-D4k2kNi0URNBxIRCb1khTnkWNHv8KSL1owPmS/K5e5t8B2GzMReY7AsJIY1BnP5KdlgC4rj9jk2IkDMasIE7xg==
+"@types/node@^14.6.2":
+  version "14.14.41"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.41.tgz#d0b939d94c1d7bd53d04824af45f1139b8c45615"
+  integrity sha512-dueRKfaJL4RTtSa7bWeTK1M+VH+Gns73oCgzvYfHZywRCoPSd8EkXBL0mZ9unPTveBn+D9phZBaxuzpwjWkW0g==
 
 "@types/node@^8.0.24":
   version "8.10.66"
@@ -1462,13 +1462,13 @@ electron-download@^3.0.1:
     semver "^5.3.0"
     sumchecker "^1.2.0"
 
-electron@^11.4.1:
-  version "11.4.1"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-11.4.1.tgz#9598530756221c20d8efec7746dd449f3933ee60"
-  integrity sha512-FaH15/yN5vSkKk4mieXemEl1AdQ9P+tsBVsgS+uTVa1agnHDcxMxyoPmtme8NsyLCgobVWHIwNtKD1jSADmzXA==
+electron@^12.0.5:
+  version "12.0.5"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-12.0.5.tgz#005cf4375d2ee4563f5e75dc4da4ef871846a8be"
+  integrity sha512-z0xYB3sPr0qZcDrHUUWqooPKe3yUzBDxQcgQe3f2TLstA84JIFXBoaIJCPh/fJW0+JdF/ZFVeK2SNgLhYtRV+Q==
   dependencies:
     "@electron/get" "^1.0.1"
-    "@types/node" "^12.0.12"
+    "@types/node" "^14.6.2"
     extract-zip "^1.0.3"
 
 electron@^2.0.18:
