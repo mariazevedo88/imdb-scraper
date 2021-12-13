@@ -22,14 +22,14 @@
   "dependencies": {
     "ansi-regex": "^6.0.1",
     "cheerio": "^1.0.0-rc.10",
-    "electron": "^15.3.1",
+    "electron": "^16.0.4",
     "lodash": "^4.17.21",
     "minimist": "^1.2.5",
     "nightmare": "^3.0.2",
-    "npm-check-updates": "^11.8.5",
+    "npm-check-updates": "^12.0.3",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
-    "snyk": "^1.728.0"
+    "snyk": "^1.790.0"
   },
   "snyk": true
 }
