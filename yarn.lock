@@ -744,22 +744,13 @@ electron-download@^3.0.1:
     semver "^5.3.0"
     sumchecker "^1.2.0"
 
-electron@^15.4.0:
-  version "15.4.1"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-15.4.1.tgz#ddeb24f47072283de53bc8d2f082127637ef37bd"
-  integrity sha512-yUQcPUFDTAbCXV0JUHZM84c5z2LSVD+5g1kiYPXYDXQf6cJBhBX3kkYnXXPLf6oWxHGdXVZBzJQ4yx3iPenMSw==
+electron@^16.0.10:
+  version "16.0.10"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-16.0.10.tgz#300fe18c0f8096d337e241a2503522011429326b"
+  integrity sha512-QSxkVpvSpLzhSVlPRVOoJc/O/ZsbZm64qvSJeXsYfaH4rQjqBJwAFPuHhbhxzrBDWjH6FrBiNNzWZufSoTz1QQ==
   dependencies:
     "@electron/get" "^1.13.0"
     "@types/node" "^14.6.2"
-    extract-zip "^1.0.3"
-
-electron@^2.0.18:
-  version "2.0.18"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-2.0.18.tgz#52f1b248c3cc013b5a870094de3b6ba5de313a0f"
-  integrity sha512-PQRHtFvLxHdJzMMIwTddUtkS+Te/fZIs+PHO+zPmTUTBE76V3Od3WRGzMQwiJHxN679licmCKhJpMyxZfDEVWQ==
-  dependencies:
-    "@types/node" "^8.0.24"
-    electron-download "^3.0.1"
     extract-zip "^1.0.3"
 
 emoji-regex@^7.0.1:
