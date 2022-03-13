@@ -744,10 +744,10 @@ electron-download@^3.0.1:
     semver "^5.3.0"
     sumchecker "^1.2.0"
 
-electron@^15.3.5:
-  version "15.3.6"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-15.3.6.tgz#19b9aee1e063b1983b3d7f535567d90e0e1b4d04"
-  integrity sha512-mOOTcZH/Vlq9GP3B8G3aMvZQ4eZyCjUZZpLccABqsPyLUMEixcdx750DQ7M+iHYyo0BWxj/JuHblzQXgNnPkfg==
+electron@^16.0.10:
+  version "16.0.10"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-16.0.10.tgz#300fe18c0f8096d337e241a2503522011429326b"
+  integrity sha512-QSxkVpvSpLzhSVlPRVOoJc/O/ZsbZm64qvSJeXsYfaH4rQjqBJwAFPuHhbhxzrBDWjH6FrBiNNzWZufSoTz1QQ==
   dependencies:
     "@electron/get" "^1.13.0"
     "@types/node" "^14.6.2"
