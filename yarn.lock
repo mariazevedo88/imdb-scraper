@@ -883,11 +883,11 @@ electron-download@^3.0.1:
     rc "^1.1.2"
     semver "^5.3.0"
     sumchecker "^1.2.0"
-    
-electron@^17.4.8:
-  version "17.4.8"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-17.4.8.tgz#a7940d125c120d51aa0c737c10d17851dada295d"
-  integrity sha512-JUHTFcBCXols+REajy9YQNypcgRGu35u/8oDmLIvjvrfIL4/Z3YAiq8HN4mhclWfuSmznrLeZ8uMktZWmvPOAg==
+
+electron@^17.4.11:
+  version "17.4.11"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-17.4.11.tgz#82899a44336bf8f1af15c6312c7f51ae3f4a519b"
+  integrity sha512-mdSWM2iY/Bh5bKzd5drYS3mf8JWyR9P9UXZA2uLEZ+1fhgLEVkY9qu501QHoMsKlNwgn96EreQC+dfdQ75VTcA==
   dependencies:
     "@electron/get" "^1.13.0"
     "@types/node" "^14.6.2"
