@@ -183,9 +183,9 @@
   integrity sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==
 
 "@types/node@^16.11.26":
-  version "16.11.60"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.60.tgz#a1fbca80c18dd80c8783557304cdb7d55ac3aff5"
-  integrity sha512-kYIYa1D1L+HDv5M5RXQeEu1o0FKA6yedZIoyugm/MBPROkLpX4L7HRxMrPVyo8bnvjpW/wDlqFNGzXNMb7AdRw==
+  version "16.11.62"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.62.tgz#bab2e6208531321d147eda20c38e389548cd5ffc"
+  integrity sha512-K/ggecSdwAAy2NUW4WKmF4Rc03GKbsfP+k326UWgckoS+Rzd2PaWbjk76dSmqdLQvLTJAO9axiTUJ6488mFsYQ==
 
 "@types/node@^8.0.24":
   version "8.10.66"
@@ -878,7 +878,7 @@ electron-download@^3.0.1:
     rc "^1.1.2"
     semver "^5.3.0"
     sumchecker "^1.2.0"
-
+    
 electron@^19.0.15:
   version "19.0.16"
   resolved "https://registry.yarnpkg.com/electron/-/electron-19.0.16.tgz#9773478e2607e458e3a353beccdfaa5aee65a9c6"
